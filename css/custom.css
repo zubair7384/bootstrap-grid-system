@@ -1,0 +1,32 @@
+body{
+    background: #07617d;
+}
+.custom-container >h1{
+    color: #fffdf6;
+    font-size: 4rem;
+    cursor: pointer;
+}
+.container .row .col{
+    background: #fffdf6;
+    color: #fffdf6;
+    font-size: 1rem;
+    border-radius: .10rem;
+}
+.container .row .col:hover{
+    background: #fffdf6b2;
+    cursor: pointer;
+    color: #fffdf6d3;
+    transition: .6s;
+}
+@media screen and (max-width: 768px){
+    .custom-container >h1{
+        color: #fffdf6;
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 420px){
+    .custom-container >h1{
+        color: #fffdf6;
+        font-size: 2rem;
+    }
+}
